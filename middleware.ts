@@ -6,6 +6,11 @@ import {
 const isProtectedRoute = createRouteMatcher([
   '/profile(.*)',
   '/onboarding(.*)',
+  '/thread(.*)',
+  '/search(.*)',
+  '/activity(.*)',
+  '/create-thread',
+  '/communities(.*)',
   // '/'
 ]);
 
